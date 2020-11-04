@@ -1,4 +1,4 @@
-# Laravel 7 執行自我診斷測試
+# Laravel 8 執行自我診斷測試
 
 引入 beyondcode 的 laravel-self-diagnosis 套件來擴增自我診斷測試，允許在 Laravel 應用程式上運行自我診斷測試。它帶有多個開箱即用的檢查，允許自行加入自定義檢查項目。
 
@@ -24,5 +24,5 @@ $ php artisan self-diagnosis
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/5nmdODc.png)
+![](https://i.imgur.com/ZvlL24T.png)
 > 協助快速查看 Laravel 應用程式的狀況
