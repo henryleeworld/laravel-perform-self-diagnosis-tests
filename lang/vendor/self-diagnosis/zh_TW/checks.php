@@ -101,7 +101,7 @@ return [
         'name' => '路由沒有快取',
     ],
     'servers_are_pingable' => [
-        'message' => "伺服器 ':host'（埠號： :port）無法連線（逾時值 :timeout seconds）。",
+        'message' => "伺服器 ':host'（埠號：:port）無法連線（逾時值 :timeout seconds）。",
         'name' => '所需的伺服器可連線',
     ],
     'storage_directory_is_linked' => [
@@ -116,5 +116,9 @@ return [
             'supervisor_command_not_available' => '"supervisorctl" 指令在當前作業系統上不可用。',
         ],
         'name' => '所有進程管理程式正在運行',
+    ],
+    'used_env_variables_are_defined' => [
+        'message' => '使用的 :amount 個環境變數未定義：' . PHP_EOL . ':undefined',
+        'name' => '所有使用的環境變數均已定義',
     ],
 ];
